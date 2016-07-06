@@ -1,0 +1,53 @@
+body {
+    background: url('./img/bg.png');
+}
+
+.jumbotron {
+    background-color: rgba(175, 175, 175, 0.2);
+} 
+
+.header {
+    font-size: 5em;
+}
+
+#epoch {
+    font-size: 4em;
+    font-family: "Consolas", monospace;
+}
+
+.footer {
+    padding-right: 30px;
+}
+
+/*TODO: Make responsive woth @media queries*/
+@media(max-width: 768px){
+    .header {
+        font-size: 4em;
+    }
+    #desc {
+        font-size: 1.25em;
+    }
+    #epoch {
+        font-size: 3em;
+    }
+    .pres {
+        font-size: 1.5em;
+    }
+    
+}
+
+@media(max-width: 480px){
+    .header {
+        font-size: 2em;
+    }
+    #desc {
+        font-size: 1em;
+    }
+    #epoch {
+        font-size: 2.5em;
+    }
+    .pres {
+        font-size: 1.25em;
+    }
+
+}
